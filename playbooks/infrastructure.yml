@@ -1,0 +1,6 @@
+- name: Clone_Roles
+  hosts: all
+  become: true
+  roles:
+    - sonarqube
+    - infrastructure
